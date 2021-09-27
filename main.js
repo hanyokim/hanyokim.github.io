@@ -4,7 +4,7 @@ $(function(){
 
 
 $("#myWeb").fullpage({
-    anchors:['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08','m09'],
+    anchors:['m01', 'm02', 'm03', 'm04', 'm05', 'm06','m07'],
 	//navigation: true,
     afterLoad: function(origin, destination, direction){
         //console.log(destination.index);
@@ -15,7 +15,7 @@ $("#myWeb").fullpage({
 });
 
 $("#intro").YTPlayer({
-    videoURL:'iJ6WIfeS3_c',
+    videoURL:'https://www.youtube.com/watch?v=YMS5bg4qzRs',
     containment:'.m01',
     autoPlay:true, 
     mute:true, 
@@ -116,7 +116,7 @@ $(".photo_slider").slick({
             slidesToShow: 1,
           }
         }
-    ]
+      ]
 });
 
 $(".m07 i.xi-arrow-left").on("click", function(){
